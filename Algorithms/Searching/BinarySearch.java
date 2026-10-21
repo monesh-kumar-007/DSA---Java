@@ -1,7 +1,12 @@
     package Algorithms.Searching;
 
-    public class BinarySearch {
+import java.util.Arrays;
+
+public class BinarySearch {
         public static boolean binary(int[] arr, int target) {
+
+            Arrays.sort(arr);
+
             int left = 0;
             int right = arr.length - 1;
 
