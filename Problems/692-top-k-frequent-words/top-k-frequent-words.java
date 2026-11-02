@@ -15,7 +15,7 @@ class Solution {
             int freq2 = freq.get(w2);
 
             if(freq1 != freq2) {
-                return Integer.compare(freq1, freq2);
+                return freq1 - freq2;
             }
             return w2.compareTo(w1);
         };
