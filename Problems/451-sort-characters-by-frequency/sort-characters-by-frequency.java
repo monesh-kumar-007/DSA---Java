@@ -13,6 +13,7 @@ class Solution {
 
         PriorityQueue<Character> pq = new PriorityQueue<>(c);
 
+        //Offer all unique chars... Since we have only 62 unique chars... O(N)
         pq.addAll(freq.keySet());
 
 
