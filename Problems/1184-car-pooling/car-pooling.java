@@ -7,6 +7,7 @@ class Solution {
             stops[trip[2]] -= trip[0]; 
         }
 
+        //Prefix Sum
         int currPassengers = 0;
         for(int i = 0; i < stops.length; i++) {
             currPassengers += stops[i];
